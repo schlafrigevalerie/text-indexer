@@ -1,4 +1,4 @@
-package com.valerix.textindexer.core.model;
+package com.valerix.textindexer.core.models;
 
 import java.nio.file.Path;
 import java.util.Objects;
