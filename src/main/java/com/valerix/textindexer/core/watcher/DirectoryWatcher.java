@@ -33,11 +33,6 @@ public class DirectoryWatcher {
         }
     }
 
-    /**
-     * начать наблюдение за директорией.
-     * @param directory путь к директории
-     * @param recursive если true — рекурсивно подписаться на поддиректории
-     */
     public void watch(Path directory, boolean recursive) throws IOException {
         register(directory);
 
